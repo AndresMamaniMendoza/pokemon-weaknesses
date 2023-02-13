@@ -1,0 +1,16 @@
+.arrow-button {
+    background-color: #ccc;
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.arrow-button.left::before {
+    content: "\2190";
+}
+
+.arrow-button.right::before {
+    content: "\2192";
+}
